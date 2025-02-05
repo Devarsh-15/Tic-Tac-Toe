@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: teal;
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-size: 80px;
+}
+.container {
+  height: 70vh;
+  /* width: 70vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8vmin;
+}
+.box:hover {
+  background-color: #f77062;
+  transition: all 0.3s ease;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 10%;
+  border: none;
+  font-size: 15vmin;
+  cursor: pointer;
+}
+/* .box::after {
+  background-color: chocolate;
+} */
+.msgContainer {
+  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#msg {
+  display: inline-block;
+  /* height:8vmin ;
+    width: 30vmin; */
+  background-color: wheat;
+  color: crimson;
+  font-size: 2rem;
+}
+
+.hide {
+  display: none;
+}
+
+#newGame {
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: brown;
+  color: white;
+  border-radius: 7%;
+  border: none;
+  cursor: pointer;
+}
+
+#reset-btn {
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: brown;
+  color: white;
+  border-radius: 7%;
+  border: none;
+  cursor: pointer;
+}
